@@ -66,7 +66,7 @@ export default function Navigation() {
                             {item.name}
                         </a>
                     ))}
-                    <div className="social-icon flex gap-x-4">z
+                    <div className="social-icon flex gap-x-4">
                         <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/krupali-ribadia/"><img src={Linkedin} width="24" alt="linkedin" /></a>
                         <a target='_blank' rel="noreferrer" href="https://github.com/krupspatel/"><img src={Github} alt="github" /></a>
                         <a target='_blank' rel="noreferrer" href="https://www.xing.com/profile/Krupali_Ribadia/"><img src={Xing} alt="Xing" /></a>
