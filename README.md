@@ -19,7 +19,7 @@ I love to learn new technologies and create projects that solve real-world probl
 
 This is a website for Krupali's portfolio where users can see and contact Krupali's introduction, projects, and skills.
 
-#### [View Portfolio](https://krupali-ribadia.netlify.app/)
+#### [View Portfolio](https://krupali-profile.netlify.app/)
 
 ## 🌱Features
 - Attractive and neat dark background color
