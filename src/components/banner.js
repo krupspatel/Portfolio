@@ -27,8 +27,8 @@ export default function Banner() {
                     <p className="mt-6 text-2xl leading-8 pb-3">
                         Hi, I'm Krupali
                     </p>
-                    <h1 className="text-4xl font-bold tracking-tight text-white pb-3">
-                    Development and optimization of front-end applications and features
+                    <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-white pb-3">
+                    Development and optimization of frontend applications and features
                     </h1>
                     <div className="flex justify-center gap-x-4 pt-2">
                         <a className="bg-indigo-600 p-1.5 pr-3 px-3 rounded-lg text-sm" href="#contact">Work with Me</a>

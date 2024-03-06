@@ -148,7 +148,7 @@ export default function Work() {
                     I truly enjoy writing code and developing websites and web applications using various languages and tools.
                     Also, making applications awesome using Bootstrap and Tailwind CSS is so much fun for me. I'm also very excited to continue learning new skills.
                 </p>
-                <ul class="grid gap-x-8 gap-y-12 sm:grid-cols-4 sm:gap-y-16 xl:col-span-2 work-div pt-20">
+                <ul class="grid gap-x-8 gap-y-12 grid-cols-3 sm:grid-cols-4 sm:gap-y-16 xl:col-span-2 work-div pt-20">
                     {skills.map((item) => (
                         <li key={item.name} className='flex flex-col gap-y-4'>
                             <img src={item.imageUrl} className="group relative mx-auto rounded-lg" alt={item.name} />
