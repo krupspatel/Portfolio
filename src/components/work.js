@@ -142,7 +142,7 @@ export default function Work() {
                     ))}
                 </ul>
             </div>
-            <div className="mt-20">
+            <div className="mt-20" id="skills">
                 <h3 className="text-3xl font-bold tracking-tight text-white">Empowering innovation with a dynamic skillset and a passion for technology</h3>
                 <p className="mt-5 text-base text-gray-300">
                     I truly enjoy writing code and developing websites and web applications using various languages and tools.

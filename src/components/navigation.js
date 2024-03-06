@@ -9,7 +9,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
     { name: 'About', href: '#about' },
     { name: 'Work', href: '#work' },
-    { name: 'Resume', href: '#' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Resume', href: '/CV-krupali-Ribadia.pdf', target: '_blank' },
     { name: 'Education', href: '#education' },
     { name: 'Get in Touch', href: '#contact' },
 ]
@@ -62,7 +63,7 @@ export default function Navigation() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                        <a key={item.name} href={item.href} target={item.target} className="text-sm font-semibold leading-6 text-white">
                             {item.name}
                         </a>
                     ))}
