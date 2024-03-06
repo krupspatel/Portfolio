@@ -11,6 +11,7 @@ I love to learn new technologies and create projects that solve real-world probl
 - React.js
 - Redux
 - Next.js
+- Angular.js
 - Typescript
 - Javascript
 - Tailwind
