@@ -44,3 +44,7 @@ This is a website for Krupali's portfolio where users can see and contact Krupal
       <img src="https://img.icons8.com/color/48/000000/gmail--v1.png" alt="Send Email">
   </a>
 </p>
+
+### :fire: Github Statstics 
+
+[![Krupali's GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=krupspatel&theme=dark&background=000000)](https://git.io/streak-stats)
