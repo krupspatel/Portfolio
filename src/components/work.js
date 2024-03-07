@@ -116,12 +116,9 @@ const skills = [
 
 
 export default function Work() {
-    const handleRedirect = () => {
-
-    }
     return (
         <div className=" py-24 sm:py-32">
-            <div className="flex-item projectsSe" id="work">
+            <div className="flex-item" id="work">
                 <h3 className="text-3xl font-bold tracking-tight text-white">Demonstrating my ability to deliver impactful results through projects and websites</h3>
                 <p className="mt-5 text-base text-gray-300">
                     I am dedicated to self-development and professional growth and have continuously worked on projects on various languages.
@@ -134,8 +131,8 @@ export default function Work() {
                                 <div class="relative flex flex-col gap-y-4">
                                     <h3>{item.siteName}</h3>
                                     <p className='text-base'>{item.description}</p>
-                                    {/* <a onClick={handleRedirect} className="bg-gray-900 p-1.5 rounded-lg text-sm" href={item.link} rel="noreferrer" target='_blank'>View More</a> */}
-                                    <button onClick={handleRedirect} className="bg-gray-900 p-1.5 rounded-lg text-sm" href={item.link} rel="noreferrer" target='_blank'>View More</button>
+                                    <a className="bg-gray-900 p-1.5 rounded-lg text-sm" href={item.link} rel="noreferrer" target='_blank'>View More</a>
+                                    {/* <button onClick={handleRedirect} className="bg-gray-900 p-1.5 rounded-lg text-sm" href={item.link} rel="noreferrer" target='_blank'>View More</button> */}
                                 </div>
                             </div>
                         </li>

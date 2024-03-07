@@ -1,7 +1,7 @@
 
 export default function About() {
     return (
-        <div className="">
+        <div className="mb-5">
             <h3 className="text-3xl font-bold tracking-tight text-white">Unveiling a Frontend developer's Journey...</h3>
             <p className="mt-5 text-base text-gray-300">
                 As a developer, I'm actively looking for full-time opportunities to apply my technical skills and contribute to
