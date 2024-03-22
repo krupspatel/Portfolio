@@ -47,3 +47,28 @@
 .social-icon img {
   filter: invert(1);
 }
+
+.main-nav .nav-link, .view-more {
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+
+.main-nav .nav-link:hover, .view-more:hover {
+  color: rgb(209 213 219);
+}
+
+.main-nav .nav-link:after, .view-more:after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background: linear-gradient(45deg, #B2B8F4 0%, #491BA9 100%);
+  transition: all .3s ease-in-out;
+}
+
+.main-nav .nav-link:hover::after, .view-more:hover:after {
+  width: 100%;
+}

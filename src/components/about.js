@@ -3,9 +3,9 @@ export default function About() {
     return (
         <div className="mb-5">
             <h3 className="text-3xl font-bold tracking-tight text-white">Unveiling a Frontend developer's Journey...</h3>
-            <p className="mt-5 text-base text-gray-300">
+            <p className="mt-5 text-base text-gray-300 text-justify">
                 As a developer, I'm actively looking for full-time opportunities to apply my technical skills and contribute to
-                meaningful projects. I'm passionate passionate and detail-oriented frontend developer with a creative flair and a
+                projects. I'm passionate passionate and detail-oriented frontend developer with a creative flair and a
                 strong foundation in building responsive and user-friendly web applications. I thrive on turning design concepts into
                 efficient, interactive, and delightful user experiences. Let's connect and explore how we can work together.
 

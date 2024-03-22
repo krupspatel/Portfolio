@@ -61,9 +61,9 @@ export default function Navigation() {
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
-                <div className="hidden lg:flex lg:gap-x-12">
+                <div className="hidden lg:flex lg:gap-x-12 main-nav">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} target={item.target} className="text-sm font-semibold leading-6 text-white">
+                        <a key={item.name} href={item.href} target={item.target} className="nav-link text-sm font-semibold leading-6 text-white">
                             {item.name}
                         </a>
                     ))}
